@@ -1,0 +1,7 @@
+Workstation steps:
+
+1) run the DataPreprocessing1_heatmap_generation.py on training data first then on the testing data
+2) run model.py
+3) run dataset.py
+4) run test_loader.py
+5) run train.py

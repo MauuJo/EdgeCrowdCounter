@@ -1,0 +1,19 @@
+# Ignore massive PyTorch model weights
+*.pth
+*.pt
+
+# Ignore heavy video outputs
+*.mp4
+*.avi
+
+# Ignore massive dataset and frame directories
+raw_frames/
+extracted_frames/
+normalized_frames/
+heatmaps/
+temple_custom_data/
+
+# Ignore Jupyter checkpoint files and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
